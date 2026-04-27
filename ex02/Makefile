@@ -3,8 +3,8 @@ CXX		= c++
 CFLAGS	= -Wextra -Werror -Wall -std=c++98
 
 # Todos los .cpp en el directorio actual
-SRC		= main.cpp Array.tpp
-HPP		= Array.hpp
+SRC		= main.cpp
+HPP		= Array.hpp Array.tpp
 # Genera los .o correspondientes
 OBJ		= $(SRC:.cpp=.o)
 
